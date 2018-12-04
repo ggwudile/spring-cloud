@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="hppc-config-server" />
+        <module name="hppc-customer" />
+        <module name="hppc-eureka-server" />
+        <module name="hppc-serviceA" />
+        <module name="hppc-serviceB" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hppc-config-server" target="1.8" />
+      <module name="hppc-customer" target="1.8" />
+      <module name="hppc-eureka-server" target="1.8" />
+      <module name="hppc-eurekaserver" target="1.8" />
+      <module name="hppc-ribbon" target="1.8" />
+      <module name="hppc-server" target="1.5" />
+      <module name="hppc-serviceA" target="1.8" />
+      <module name="hppc-serviceB" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
