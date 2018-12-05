@@ -10,4 +10,4 @@
 ##4.spring cloud Circuit Breaker（断路器）
   [1]当某一个服务不可以的时候，为了防止服务器的频繁访问，当这个服务的访问上线超过设定阀值的时候，熔断器主动阻止这个服务的访问
   [2]熔断器会动态监听down掉服务的心跳，当服务恢复正常的时候会把服务在加入服务队列中
-
+##5.spring cloud Circuit Break Dashboard(断路器仪表盘)
